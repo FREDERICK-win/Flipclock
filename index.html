@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>flipclock</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="countup" id="countup">
+    <div class="flip-clock">
+      <span id="days" class="flip-clock__piece flip">
+        <span class="flip-clock__card flip-card">
+          <b class="flip-card__top days">00</b>
+          <b class="flip-card__bottom days" data-value="00"></b>
+          <b class="flip-card__back days" data-value="00"></b>
+          <b class="flip-card__back-bottom days" data-value="00"></b>
+        </span>
+        <span class="flip-clock__slot">Days</span>
+      </span>
+    </div>
+
+    <div class="flip-clock">
+      <span id="hours" class="flip-clock__piece flip">
+        <span class="flip-clock__card flip-card">
+          <b class="flip-card__top hours">00</b>
+          <b class="flip-card__bottom hours" data-value="00"></b>
+          <b class="flip-card__back hours" data-value="00"></b>
+          <b class="flip-card__back-bottom hours" data-value="00"></b>
+        </span>
+        <span class="flip-clock__slot">Hours</span>
+      </span>
+    </div>
+
+    <div class="flip-clock">
+      <span id="minutes" class="flip-clock__piece flip">
+        <span class="flip-clock__card flip-card">
+          <b class="flip-card__top minutes">00</b>
+          <b class="flip-card__bottom minutes" data-value="00"></b>
+          <b class="flip-card__back minutes" data-value="00"></b>
+          <b class="flip-card__back-bottom minutes" data-value="00"></b>
+        </span>
+        <span class="flip-clock__slot">Minutes</span>
+      </span>
+    </div>
+
+    <div class="flip-clock">
+      <span id="seconds" class="flip-clock__piece flip">
+        <span class="flip-clock__card flip-card">
+          <b class="flip-card__top seconds">00</b>
+          <b class="flip-card__bottom seconds" data-value="00"></b>
+          <b class="flip-card__back seconds" data-value="00"></b>
+          <b class="flip-card__back-bottom seconds" data-value="00"></b>
+        </span>
+        <span class="flip-clock__slot">Seconds</span>
+      </span>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+</body>
+</html>
