@@ -6,15 +6,15 @@ body, #countup {
   display: -webkit-box;
   display: flex;
   -webkit-box-pack: center;
-          justify-content: center;
+  justify-content: center;
   -webkit-box-align: center;
-          align-items: center;
+  align-items: center;
   background: #666e7e;
 }
 .flip-clock {
   text-align: center;
   -webkit-perspective: 600px;
-          perspective: 600px;
+  perspective: 600px;
   margin: 0 auto;
 }
 .flip-clock *,
@@ -64,7 +64,7 @@ body, #countup {
   padding: 0.23em 0.25em 0.4em;
   border-radius: 0.15em 0.15em 0 0;
   -webkit-transform-style: preserve-3d;
-          transform-style: preserve-3d;
+  transform-style: preserve-3d;
   width: 1.8em;
 }
 .flip-card__bottom,
@@ -108,24 +108,24 @@ body, #countup {
 .flip .flip-card__back::before {
   z-index: 1;
   -webkit-animation: flipTop 0.3s cubic-bezier(0.37, 0.01, 0.94, 0.35);
-          animation: flipTop 0.3s cubic-bezier(0.37, 0.01, 0.94, 0.35);
+  animation: flipTop 0.3s cubic-bezier(0.37, 0.01, 0.94, 0.35);
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-transform-origin: center bottom;
-          transform-origin: center bottom;
+  transform-origin: center bottom;
 }
 .flip .flip-card__bottom {
   -webkit-transform-origin: center top;
-          transform-origin: center top;
+  transform-origin: center top;
   -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
+  animation-fill-mode: both;
   -webkit-animation: flipBottom 0.6s cubic-bezier(0.15, 0.45, 0.28, 1);
-          animation: flipBottom 0.6s cubic-bezier(0.15, 0.45, 0.28, 1);
+  animation: flipBottom 0.6s cubic-bezier(0.15, 0.45, 0.28, 1);
 }
 @-webkit-keyframes flipTop {
   0% {
     -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
+    transform: rotateX(0deg);
     z-index: 2;
   }
   0%,
@@ -134,14 +134,14 @@ body, #countup {
   }
   100% {
     -webkit-transform: rotateX(-90deg);
-            transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
     opacity: 0;
   }
 }
 @keyframes flipTop {
   0% {
     -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
+    transform: rotateX(0deg);
     z-index: 2;
   }
   0%,
@@ -150,7 +150,7 @@ body, #countup {
   }
   100% {
     -webkit-transform: rotateX(-90deg);
-            transform: rotateX(-90deg);
+    transform: rotateX(-90deg);
     opacity: 0;
   }
 }
@@ -159,7 +159,7 @@ body, #countup {
   50% {
     z-index: -1;
     -webkit-transform: rotateX(90deg);
-            transform: rotateX(90deg);
+    transform: rotateX(90deg);
     opacity: 0;
   }
   51% {
@@ -168,7 +168,7 @@ body, #countup {
   100% {
     opacity: 1;
     -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
+    transform: rotateX(0deg);
     z-index: 5;
   }
 }
@@ -177,7 +177,7 @@ body, #countup {
   50% {
     z-index: -1;
     -webkit-transform: rotateX(90deg);
-            transform: rotateX(90deg);
+    transform: rotateX(90deg);
     opacity: 0;
   }
   51% {
@@ -186,7 +186,7 @@ body, #countup {
   100% {
     opacity: 1;
     -webkit-transform: rotateX(0deg);
-            transform: rotateX(0deg);
+    transform: rotateX(0deg);
     z-index: 5;
   }
 }
